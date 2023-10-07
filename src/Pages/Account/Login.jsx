@@ -33,7 +33,7 @@ function Login() {
     googleSing()
       .then((user) => {
         navigat(preveLocation?.state || "/");
-        console.log(user.user);
+        console.log(user.user, 1);
       })
       .catch((error) => {
         console.log(error.message);
