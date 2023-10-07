@@ -155,7 +155,7 @@ function SignUp() {
           onClick={handleGoogleSignUp}
           className="mt-4 bg-[#4285F4] w-full text-white py-2 px-4 rounded-md hover:bg-[#357AE8] transition duration-300 flex items-center justify-center"
         >
-          <SiGoogle className="w-6 h-6 mr-2" /> {/* Google icon */}
+          <SiGoogle className="w-6 h-6 mr-2" /> {/* Google  */}
           Sign Up with Google
         </button>
         <p className="mt-4 text-sm text-center text-gray-600">
