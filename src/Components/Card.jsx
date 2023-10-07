@@ -10,7 +10,7 @@ function Card({ serviceData }) {
     <>
       <div className="block bg-white rounded-lg shadow-md dark:bg-gray-800">
         <div className="flex items-center justify-center">
-          <img className="rounded-t-lg md:h-[275px] " src={image} alt="" />
+          <img className="rounded-t-lg md:h-[275px] " src={image} alt="image" />
         </div>
 
         <div className="p-6">
