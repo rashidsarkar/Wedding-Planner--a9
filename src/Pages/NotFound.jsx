@@ -12,7 +12,7 @@ const NotFound = () => {
     <div className="relative z-10" style={styleBg}>
       <div className="flex flex-col items-center justify-center min-h-screen text-gray-700 bg-white bg-opacity-90">
         <div className="text-6xl font-extrabold">404</div>
-        <div className="text-2xl font-semibold">Oops! Page not found.</div>
+        <div className="text-2xl font-semibold">Oops! Page not found..</div>
         <p className="mt-4 text-lg">
           The page you are looking for might have been removed or does not
           exist.
