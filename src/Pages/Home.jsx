@@ -23,7 +23,13 @@ function Home() {
         endText={`Planners & Event Organizers!`}
         image="https://i.ibb.co/M5cQNbw/weeding-bg.jpg"
       ></Banar>
-
+      <div data-aos="fade-right" className="">
+        <Servise></Servise>
+      </div>
+      <div data-aos="zoom-in">
+        <Gallery></Gallery>
+      </div>
+      <TeamMembers></TeamMembers>
       <Footer></Footer>
     </div>
   );
