@@ -50,6 +50,7 @@ function SignUp() {
         .then((user) => {
           updateProfiles(name, image)
             .then(() => {
+              swal("Success", "Signup successful!", "success");
               navigat(preveLocation?.state || "/");
             })
             .catch();
@@ -65,6 +66,8 @@ function SignUp() {
   const handleGoogleSignUp = () => {
     googleSing()
       .then((user) => {
+        swal("Success", "Signup successful!", "success");
+
         navigat(preveLocation?.state || "/");
         console.log(user.user);
       })
