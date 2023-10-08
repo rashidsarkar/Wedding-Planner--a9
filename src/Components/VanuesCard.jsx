@@ -12,7 +12,7 @@ function VanuesCard({ venueData }) {
   return (
     <div className="p-6 bg-white rounded-lg shadow-md ">
       <div className="relative">
-        <img src={image} alt={name} className="w-full rounded-lg" />
+        <img src={image} alt={name} className="w-auto rounded-lg md:w-full" />
       </div>
       <div className="mt-4 text-center">
         <h3 className="text-xl font-semibold text-[#252d41]  ">{place}</h3>
