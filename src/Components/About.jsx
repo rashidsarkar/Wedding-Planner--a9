@@ -43,7 +43,7 @@ function About() {
               <div className="relative flex flex-col w-full min-w-0 mb-6 break-words bg-white rounded-lg shadow-lg">
                 <img
                   alt="..."
-                  src="https://i.ibb.co/BfPL3F5/about-bg.jpg"
+                  src="https://i.ibb.co/nL2TBGV/pic59-free-img.jpg"
                   className="w-full align-middle rounded-t-lg"
                 />
               </div>
@@ -64,12 +64,12 @@ function About() {
             memories that will last a lifetime.
           </p>
         </div>
-        <div className="grid grid-cols-4 gap-4 px-4 mt-4">
+        <div className="grid grid-cols-2 gap-4 px-4 mt-4 md:grid-cols-3 lg:grid-cols-4">
           <div className="relative overflow-hidden group">
             <img
               src="https://i.ibb.co/VHB5zdf/team-1.jpg"
               alt=""
-              className="w-full md:h-[370px] h-[175px]  lg:h-[600px] transition-transform transform scale-100  group-hover:scale-105"
+              className="w-full h-[370px]   lg:h-[600px] transition-transform transform scale-100  group-hover:scale-105"
             />
             <div className="absolute inset-0 flex items-end justify-center bg-[rgba(0,0,0,0.6)] opacity-0 group-hover:opacity-100 transition-opacity">
               <div className="p-2 text-center text-white">
@@ -82,7 +82,7 @@ function About() {
             <img
               src="https://i.ibb.co/X8fj9wp/download.jpg"
               alt=""
-              className="w-full md:h-[370px] h-[175px]  lg:h-[600px] transition-transform transform scale-100  group-hover:scale-105"
+              className="w-full h-[370px]   lg:h-[600px] transition-transform transform scale-100  group-hover:scale-105"
             />
             <div className="absolute inset-0 flex items-end justify-center bg-[rgba(0,0,0,0.6)] opacity-0 group-hover:opacity-100 transition-opacity">
               <div className="p-2 text-center text-white">
@@ -95,7 +95,7 @@ function About() {
             <img
               src="https://i.ibb.co/12kq3WL/download.jpg"
               alt=""
-              className="w-full md:h-[370px] h-[175px]  lg:h-[600px] transition-transform transform scale-100  group-hover:scale-105"
+              className="w-full h-[370px]   lg:h-[600px] transition-transform transform scale-100  group-hover:scale-105"
             />
             <div className="absolute inset-0 flex items-end justify-center bg-[rgba(0,0,0,0.6)] opacity-0 group-hover:opacity-100 transition-opacity">
               <div className="p-2 text-center text-white">
@@ -108,7 +108,7 @@ function About() {
             <img
               src="https://i.ibb.co/Lg37hBd/download.jpg"
               alt=""
-              className="w-full h-[175px] md:h-[370px]  lg:h-[600px] transition-transform transform scale-100   group-hover:scale-105"
+              className="w-full  h-[370px]  lg:h-[600px] transition-transform transform scale-100   group-hover:scale-105"
             />
             <div className="absolute inset-0 flex items-end justify-center bg-[rgba(0,0,0,0.6)] opacity-0 group-hover:opacity-100 transition-opacity">
               <div className="p-2 text-center text-white">
