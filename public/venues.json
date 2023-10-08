@@ -14,10 +14,10 @@
     "id": 2,
     "name": "Bangkok",
     "place": "Thailand",
-    "description": "Bangkok, the vibrant capital of Thailand, is a bustling city with a unique blend of modernity and tradition. It's a perfect wedding destination with a capacity of 800-1500 guests. You can enjoy boat access and comfortable accommodations while celebrating your special day in this enchanting city.",
+    "description": "Bangkok, the vibrant capital of Thailand, is a bustling city with a unique blend of modernity and tradition. It's a perfect wedding destination with a capacity of 700-900 guests. You can enjoy boat access and comfortable accommodations while celebrating your special day in this enchanting city.",
     "image": "https://i.ibb.co/5W18fCy/pic52-free-img.jpg",
 
-    "capacity": "800-1500",
+    "capacity": "700-900",
     "boatAccess": true,
     "accommodation": true
   },

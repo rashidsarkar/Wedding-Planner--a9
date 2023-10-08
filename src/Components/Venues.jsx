@@ -11,7 +11,7 @@ function Venues() {
   // console.log(venueData);
 
   return (
-    <div>
+    <div className="mx-auto max-w-7xl">
       <Banar
         midText="VENUES"
         optionalText="Our Exclusive Wedding"
