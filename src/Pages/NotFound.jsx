@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const NotFound = () => {
   const styleBg = {
@@ -17,12 +18,12 @@ const NotFound = () => {
           The page you are looking for might have been removed or does not
           exist.
         </p>
-        <a
+        <Link
           href="/"
           className="text-#252D41 hover:underline mt-4 text-lg font-semibold"
         >
           Go back to the homepage
-        </a>
+        </Link>
       </div>
     </div>
   );
