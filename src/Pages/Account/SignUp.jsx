@@ -7,7 +7,7 @@ import { PreveLoca } from "./Login";
 import swal from "sweetalert";
 
 function SignUp() {
-  const { singupWithEmalPass, googleSing, user, updateProfiles } =
+  const { singupWithEmalPass, googleSing, user, setUser, updateProfiles } =
     useContext(AuthContext);
 
   const preveLocation = useLocation();
@@ -47,15 +47,21 @@ function SignUp() {
       );
     } else {
       singupWithEmalPass(email, password)
-        .then((user) => {
+        .then((currentUser) => {
           updateProfiles(name, image)
             .then(() => {
               swal("Success", "Signup successful!", "success");
               navigat(preveLocation?.state || "/");
+              setUser({
+                ...user,
+                displayName: name,
+                photoURL: image,
+                email: email,
+              });
             })
             .catch();
 
-          console.log(user.user);
+          // console.log(user.user);
         })
         .catch((error) => {
           console.log(error.message);

@@ -67,6 +67,7 @@ function AuthProvider({ children }) {
     loading,
     loginEmPAss,
     updateProfiles,
+    setUser,
   };
   return (
     <AuthContext.Provider value={authInfo}>{children}</AuthContext.Provider>
